@@ -1,0 +1,15 @@
+server:
+  port: 9003
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driverClassName: com.p6spy.engine.spy.P6SpyDriver
+    url: jdbc:p6spy:mysql://10.39.37.33:3306/ygyg_smartenergy
+    username: ygyg_smartenergy_alpha
+    password: ygyg_smartenergy_alpha
+
+    #url: jdbc:p6spy:mysql://10.38.77.61:3306/ygyg_smartenergy
+    #username: ygyg_smartenergy_beta2
+    #password: ygyg_smartenergy_beta2
+
